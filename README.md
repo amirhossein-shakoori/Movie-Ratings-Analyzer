@@ -47,8 +47,8 @@ This project performs in-depth analysis of the `movies_metadata.csv` dataset con
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/MovieHub-Analytics.git
-cd MovieHub-Analytics
+git clone [https://github.com/amirhossein-shakoori/Movie-Ratings-Analyzer.git]
+cd Movie-Ratings-Analyzer
 ```
 
 2. **Install dependencies**
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 4. **Run the analysis**
 ```bash
-python movie_analysis.py
+python movie_analysis_interactive.py
 ```
 
 ## 📚 Usage Examples
@@ -70,10 +70,10 @@ python movie_analysis.py
 ### Basic Analysis
 ```python
 # Run full analysis with interactive prompts
-python movie_analysis.py
+python movie_analysis_interactive.py
 
 # Custom analysis with specific parameters
-python movie_analysis.py --min_rating 7.0 --year 2015 --min_votes 1000
+python mmovie_analysis_interactive.py --min_rating 7.0 --year 2015 --min_votes 1000
 ```
 
 ### Key Functionalities
@@ -102,21 +102,7 @@ Drama: 6.22 average rating
 2013: 658 movies, average rating: 5.82
 ```
 
-## 🔧 Configuration
 
-Customize your analysis through interactive prompts or modify `config.py`:
-
-```python
-# Default analysis parameters
-DEFAULT_SETTINGS = {
-    'rating_threshold': 7.5,
-    'min_votes': 1000,
-    'target_year': 2015,
-    'min_runtime': 60,
-    'max_runtime': 180,
-    'top_n': 10
-}
-```
 
 ## 📊 Analysis Modules
 
