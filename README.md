@@ -35,24 +35,7 @@ This project performs in-depth analysis of the `movies_metadata.csv` dataset con
 - Type conversion and data normalization
 - Memory-efficient processing
 
-## 🏗️ Project Structure
 
-```
-MovieHub-Analytics/
-├── README.md                    # This documentation
-├── movie_analysis.py            # Main analysis script
-├── requirements.txt             # Dependencies
-├── .gitignore                  # Git ignore rules
-├── config.py                   # Configuration settings
-├── data/                       # Dataset directory
-│   └── movies_metadata.csv     # Primary dataset (not in git)
-├── outputs/                    # Analysis outputs
-│   ├── summary_stats.csv       # Statistical summary
-│   ├── genre_analysis.csv      # Genre performance
-│   └── yearly_trends.csv       # Temporal trends
-└── examples/                   # Usage examples
-    └── sample_queries.py       # Example analysis queries
-```
 
 ## ⚡ Quick Start
 
