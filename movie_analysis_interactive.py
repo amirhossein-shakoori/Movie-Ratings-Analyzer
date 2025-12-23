@@ -5,8 +5,8 @@ Movie Ratings Analysis Project
 This project analyzes movie ratings dataset using NumPy and Pandas.
 Focus is on statistical analysis, filtering, and grouping of movie ratings data.
 
-Author: [Your Name]
-Date: [Current Date]
+Author: [Amirhossein Shakoori]
+
 Version: 1.0
 """
 
@@ -574,4 +574,5 @@ display_simple(genre_stats_df.head(num_genres_display))
 # ============================================================================
 print("\n" + "="*50)
 print("ANALYSIS COMPLETED SUCCESSFULLY!")
+
 print("="*50)
