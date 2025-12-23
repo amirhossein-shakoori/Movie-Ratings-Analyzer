@@ -1,0 +1,8 @@
+# 📦 MovieHub Analytics - Project Dependencies
+# Version: 1.0.0
+# Date: 2025
+
+## Core Data Analysis
+pandas>=1.5.0           # Data manipulation and analysis
+numpy>=1.24.0           # Numerical computing and linear algebra
+
